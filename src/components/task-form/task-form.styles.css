@@ -1,0 +1,32 @@
+.task-form{
+    margin-top: 60px;
+    padding: 1.5rem;
+    box-sizing: border-box;
+    text-align: center;
+    position: relative;
+}
+
+.task-input{
+    padding: 1rem;
+    width: 100%;
+    display: block;
+    color: purple;
+    outline: none;
+    border-radius: 5px;
+    font-size: 16px;
+    border: solid 1px purple;
+}
+
+.submit-button{
+    padding: 1.15rem 1rem;
+    background: purple;
+    border-radius: 5px;
+    color: #FFF;
+    border: none;
+    cursor: pointer;
+    position:absolute;
+    right: 1.5rem;
+    top: 1.5rem;
+    border-top-left-radius: 0%;
+    border-bottom-left-radius: 0%;
+}

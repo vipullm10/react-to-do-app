@@ -1,0 +1,28 @@
+.tasks-container{
+    padding: 1.5rem;
+}
+.task-field{
+    width: 100%;
+    box-shadow: 0px 0px 2px 1px rgba(0,0,0,.1);
+    padding: 0 .5rem;
+    margin-bottom: 20px;
+    color: purple;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    transition: all 13s linear;
+}
+.task-title{
+    font-size: 20px;
+}
+.remove-btn{
+    display: flex;
+    align-items: center;
+}
+.delete-btn{
+    fill: purple;
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+}
